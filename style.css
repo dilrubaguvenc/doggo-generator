@@ -1,14 +1,13 @@
 html {
-    border: 2px solid red;
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(rgb(241, 243, 200), rgb(210, 182, 80));
+    background: linear-gradient(lightyellow, rgb(240, 240, 129));
+    height: 100vh;
 }
 
 header {
     margin-bottom: 36px;
     text-align: center;
-    border: 2px solid green;
 }
 
 select {
@@ -18,16 +17,30 @@ select {
 .section-container {
     display: flex;
     flex-direction: row; /* want columns to be next to each other; row goes l -> r; column --> stacks on top of each other */
-    border: 2px solid blue;
     padding: 0 10vw; /* view width; looks @ available space in window, takes % of viewport & adapts */
 }
 
 .column {
     flex: 1;
-    border: 2px solid orange;
 }
 
 img {
-    max-width: 70vh;
-    max-height: 60vh;
+    max-width: 80vh;
+    max-height: 70vh;
 }
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+#dog-name {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#left-column {
+    text-align: center;
+}
+
