@@ -1,0 +1,27 @@
+html {
+    border: 2px solid red;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(202, 252, 202), rgb(57, 196, 140));
+}
+
+header {
+    margin-bottom: 36px;
+    text-align: center;
+    border: 2px solid green;
+}
+
+select {
+    font-size: 1.1rem;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row; /* want columns to be next to each other; row goes l -> r; column --> stacks on top of each other */
+    border: 2px solid blue;
+    padding: 0 10vw; /* view width; looks @ available space in window, takes % of viewport & adapts */
+}
+
+.column {
+    border: 2px solid orange;
+}
